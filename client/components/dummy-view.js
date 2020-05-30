@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom' 
+import { Link, useParams } from 'react-router-dom'
 import Head from './head'
 
 const Dummy = () => {
-  const { planetId } = useParams()  
+  const { planetId } = useParams()
   return (
     <div>
       <Head title="Hello" />

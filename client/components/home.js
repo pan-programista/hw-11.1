@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom' 
+import { Link } from 'react-router-dom'
 import Head from './head'
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
             <a href="/">Go to Root HREF</a>
           </div>
         </div>
-      </div>      
+      </div>
     </div>
   )
 }
